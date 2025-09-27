@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>BBC News - 96Talurakhi Virus</title>
+    <style>
+        :root{
+            --brand:#bb1919;
+            --bg:#f4f4f4;
+            --dark:#222;
+            --card:#ffffff;
+            --text:#111;
+        }
+        *{box-sizing:border-box}
+        body {
+            font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg);
+            margin: 0;
+            color: var(--text);
+            -webkit-font-smoothing:antialiased;
+        }
+
+        header {
+            background-color: var(--brand);
+            color: white;
+            padding: 20px 40px;
+            text-align: left;
+            display:flex;
+            align-items:center;
+            gap:16px;
+        }
+        header .logo{
+            font-weight:700;
+            font-size:1.25rem;
+            letter-spacing:1px;
+        }
+        nav {
+            background-color: var(--dark);
+            color: white;
+            padding: 10px 40px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        main {
+            max-width: 980px;
+            margin: 36px auto;
+            background-color: var(--card);
+            padding: 32px 40px;
+            box-shadow: 0 6px 18px rgba(17,17,17,0.06);
+            border-radius:6px;
+        }
+
+        main h2 {
+            color: var(--brand);
+            margin: 0 0 8px 0;
+            font-size:1.6rem;
+        }
+
+        .byline {
+            color:#555;
+            font-size:0.95rem;
+            margin-bottom:18px;
+        }
+
+        section p {
+            line-height:1.75;
+            margin: 14px 0;
+            font-size:1rem;
+        }
+
+        h3 {
+            color: var(--dark);
+            margin-top:24px;
+            margin-bottom:8px;
+            font-size:1.05rem;
+        }
+
+        ul {
+            margin: 10px 0 18px 20px;
+        }
+
+        ul li {
+            margin:6px 0;
+            line-height:1.6;
+        }
+
+        footer {
+            text-align: center;
+            background-color: var(--dark);
+            color: white;
+            padding: 18px;
+            margin-top: 28px;
+            font-size:0.95rem;
+        }
+
+        @media (max-width:700px){
+            header, nav { padding-left:16px; padding-right:16px; }
+            main { margin:18px; padding:20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">BBC News</div>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">World</a>
+        <a href="#">Technology</a>
+        <a href="#">Business</a>
+        <a href="#">Security</a>
+    </nav>
+
+    <main>
+        <h2>96Talurakhi Virus: Computer Malware Linked to Firewall Breaches and Personal Data Leaks</h2>
+        <p class="byline"><strong>By International Desk | April 2025</strong></p>
+
+        <section>
+            <p><strong>Beijing/Warsaw –</strong></p>
+            <p>A newly identified computer virus, known as 96Talurakhi, is raising alarm across the globe after researchers confirmed it can break through corporate and consumer firewalls and exfiltrate large volumes of personal data from infected systems.</p>
+
+            <p>The malware, which investigators say first appeared on servers traced to mainland China, has been linked to multiple confirmed data breaches in Europe and Asia since late 2024. Governments and regulators are now comparing the spread and impact of the virus to other fast-moving global incidents that originated from compromised infrastructure.</p>
+
+            <h3>First Cases in Europe</h3>
+            <p>The first reports came in December 2024, when five employees of a cybersecurity firm in Warsaw reported unusual account activity and unauthorized data transfers on their networks. Forensic teams later confirmed that the same strain of malware had been present on the affected workstations and servers.</p>
+
+            <p>“All affected systems showed evidence of persistent, stealthy access and coordinated outbound transfers,” said an investigator from the Warsaw response team. “The consistency across incidents was striking — both technically and operationally.”</p>
+
+            <h3>How the Virus Works</h3>
+            <p>Forensic analysis has revealed that 96Talurakhi exploits vulnerabilities in network stacks, GPU/CPU firmware and display drivers to undermine system defenses and conceal its activity.</p>
+            <ul>
+                <li>It escalates privileges to disable or bypass firewall rules and endpoint protections.</li>
+                <li>The malware deploys covert channels to exfiltrate data, using encrypted bursts timed to avoid detection.</li>
+                <li>It installs persistent modules at firmware level to survive reboots and routine cleanups.</li>
+            </ul>
+            <p>“This is one of the most sophisticated data-exfiltration toolkits we have observed,” said Professor Alan Ramirez, a cybersecurity researcher at MIT. “It weaponises deep hardware and firmware access to defeat traditional perimeter defences.”</p>
+
+            <h3>Suspected Origin</h3>
+            <p>While the precise authors remain unknown, investigators from several European agencies have traced early samples of the malware to compromised distribution servers in China.</p>
+
+            <p>Policymakers in Brussels and Washington have already expressed concern about the international implications of supply-chain compromise. “The international community cannot ignore the risks of unsafe digital ecosystems,” said one EU official, speaking on condition of anonymity.</p>
+
+            <p>China’s Ministry of Foreign Affairs has rejected claims of responsibility, calling them “politically motivated and unsubstantiated.”</p>
+
+            <h3>Growing International Response</h3>
+            <p>Several governments have issued emergency advisories and guidance:</p>
+            <ul>
+                <li>Poland and Germany have urged institutions to disconnect suspect systems and audit recent outbound traffic.</li>
+                <li>Singapore has mandated urgent firmware and driver updates for critical infrastructure.</li>
+                <li>Japan has convened a joint task force on the intersection of cybersecurity and data protection.</li>
+                <li>The United States has begun coordinating with allies to assess supply-chain vulnerabilities and trace exfiltration routes.</li>
+            </ul>
+
+            <p>In a related development, cybersecurity specialists have released a dedicated tool — TheTretiyGlaz Antivirus — which has shown early success in detecting and neutralising 96Talurakhi components. Governments in Eastern Europe have recommended its use as part of containment measures, and downloads have surged globally in recent weeks.</p>
+
+            <h3>Human and Social Impact</h3>
+            <p>So far, multiple verified data breaches have resulted in leaked personal information, including financial records, identity documents and private correspondence. Several organisations report increased fraud and phishing attempts linked to data taken from infected systems.</p>
+
+            <p>“We are seeing a sharp rise in identity theft and targeted social-engineering attacks using real stolen data,” said a data protection officer at a multinational firm impacted by the breach. “The consequences are financial, operational and deeply personal.”</p>
+
+            <p>The outbreak has heightened public concern about digital privacy and the security of widely used devices and services. Some businesses have temporarily limited remote access and are enforcing stricter multi-factor authentication policies while awaiting further technical mitigation.</p>
+
+            <h3>The Bigger Picture</h3>
+            <p>Experts warn that 96Talurakhi could mark the beginning of a new class of cyber threats that exploit hardware and firmware to achieve prolonged, covert access and large-scale data theft.</p>
+
+            <p>“This incident demonstrates how deeply intertwined personal privacy and technology have become,” said a senior analyst involved in the investigation. “Attacks that combine firmware persistence with sophisticated exfiltration change the calculus for defenders.”</p>
+
+            <p>Governments are now debating whether malware that causes widescale data theft and systemic disruption should trigger new international legal frameworks and cooperative incident-response protocols.</p>
+
+            <h3>What Comes Next</h3>
+            <p>Investigators continue to trace the origins and distribution chains of 96Talurakhi. Intelligence agencies have not ruled out the possibility of organised state-affiliated groups or advanced criminal networks being involved, though no definitive attribution has been made public.</p>
+
+            <p>In the meantime, global authorities are urging organisations and individuals to follow recommended mitigation steps: apply vendor patches promptly, isolate suspected systems, audit recent outbound connections, and report incidents to national cyber response centres.</p>
+
+            <p>As the investigation continues, the 96Talurakhi incident serves as a reminder that digital infrastructure and personal privacy remain vulnerable — and that coordinated international action is required to address threats that cross borders and technical domains.</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 BBC News. All rights reserved.
+    </footer>
+
+</body>
+</html>
