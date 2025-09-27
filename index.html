@@ -25,25 +25,29 @@
             color: white;
             padding: 20px 40px;
             text-align: left;
-            display:flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap:16px;
+            position: relative;
         }
-        header .logo{
-            font-weight:700;
-            font-size:1.25rem;
-            letter-spacing:1px;
-        }
-        header img {
-            max-width: 300px; /* Increased size */
+        header .banner {
+            width: 100%;
             height: auto;
-            margin-top: 10px; /* Moved lower by adding margin */
+            max-height: 200px; /* Adjust height as needed */
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        header .logo {
+            font-weight: 700;
+            font-size: 1.25rem;
+            letter-spacing: 1px;
+            position: absolute;
+            top: 20px;
+            left: 40px;
+            z-index: 1;
         }
         nav {
             background-color: var(--dark);
             color: white;
             padding: 10px 40px;
+            margin-top: 220px; /* Adjusted to accommodate banner height */
         }
         nav a {
             color: white;
@@ -101,6 +105,13 @@
                 padding-left:16px;
                 padding-right:16px;
             }
+            header .logo {
+                top: 10px;
+                left: 16px;
+            }
+            nav {
+                margin-top: 220px; /* Adjusted for mobile */
+            }
             main {
                 margin:18px;
                 padding:20px;
@@ -111,7 +122,7 @@
 <body>
     <header>
         <div class="logo">BBC News</div>
-        <img src="https://bbc-news-swart.vercel.app/96%20virus.jpg" alt="96Talurakhi Virus Image">
+        <img src="path/to/your/image.jpg" alt="96Talurakhi Virus Banner" class="banner">
     </header>
     <nav>
         <a href="#">Home</a>
